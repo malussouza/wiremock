@@ -32,7 +32,7 @@ Faça o download do JAR standalone presente neste projeto
 java -jar wiremock-standalone-2.27.2.jar --port 8080 --root-dir /caminho/para/seu/diretorio/de/configuracao
 ```
 
--se de substituir /caminho/para/seu/diretorio/de/configuracao pelo caminho real do diretório onde estão seus arquivos de configuração.
+- Certifique-se de substituir /caminho/para/seu/diretorio/de/configuracao pelo caminho real do diretório onde estão seus arquivos de configuração.
 Espere até ver a mensagem abaixo de que o WireMock foi iniciado com sucesso.
 
 ## Teste
