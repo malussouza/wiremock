@@ -11,8 +11,12 @@ Faça o download do JAR standalone presente neste projeto
 - Crie um diretório para armazenar seus arquivos de configuração do WireMock.
 - Crie arquivos JSON para definir os stubs da API. Por exemplo, você pode criar um arquivo stub.json com o seguinte conteúdo:
 
+- Vamos criar importar o seguinte endpoint via cURL (Pode ser no postman):
+ 
 ```json
-{
+  curl --location 'http://localhost:8080/__admin/mappings' \
+--header 'Content-Type: application/json' \
+--data '{
     "request": {
         "url": "/tempo-api/temperatura?regiao=oeste",
         "method": "GET"
@@ -22,9 +26,8 @@ Faça o download do JAR standalone presente neste projeto
         "body": "{\"data\":{\"temperatura\":00.00,\"regiao\":\"oeste\"}}"
     }
 }
-
+'
 ```
-
 ## Execução
 - Navegue até o diretório onde você baixou ou instalou o WireMock.
 - Execute o comando para iniciar o servidor:
