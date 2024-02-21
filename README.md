@@ -13,15 +13,16 @@ Faça o download do JAR standalone presente neste projeto
 
 ```json
 {
-"solicitar": {
-"método": "OBTER",
-"url": "/api/recurso"
-},
-"resposta": {
-"status": 200,
-"body": "Olá, mundo!"
+    "request": {
+        "url": "/tempo-api/temperatura?regiao=oeste",
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "body": "{\"data\":{\"temperatura\":00.00,\"regiao\":\"oeste\"}}"
+    }
 }
-}
+
 ```
 
 ## Execução
