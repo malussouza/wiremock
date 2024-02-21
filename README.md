@@ -4,10 +4,10 @@ O WireMock é uma ferramenta poderosa para simulação de APIs durante o desenvo
 ## Pré-requisitos
 Certifique-se de ter instalado o Java Development Kit (JDK) em sua máquina. O WireMock é executado na JVM (Java Virtual Machine), então o JDK é necessário para rodar o servidor.
 
-##Instalação
+## Instalação
 Faça o download do JAR standalone presente neste projeto
 
-##Configuração
+## Configuração
 - Crie um diretório para armazenar seus arquivos de configuração do WireMock.
 - Crie arquivos JSON para definir os stubs da API. Por exemplo, você pode criar um arquivo stub.json com o seguinte conteúdo:
 
