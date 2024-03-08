@@ -30,6 +30,7 @@ Faça o download do JAR standalone presente neste projeto
 ```
 ## Execução
 - Navegue até o diretório onde você baixou ou instalou o WireMock.
+- Clique com o botão direito sobre o arquivo ```java -jar wiremock-standalone-2.27.2.jar``` e execute o terminal a partir do arquivo.
 - Execute o comando para iniciar o servidor:
 
 ```
