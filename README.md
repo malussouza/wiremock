@@ -41,4 +41,5 @@ java -jar wiremock-standalone-2.27.2.jar --port 8080 --root-dir /caminho/para/se
 Espere até ver a mensagem abaixo de que o WireMock foi iniciado com sucesso.
 
 ## Teste
+Envie a requisição que você criou no postman
 Você pode testar o WireMock acessando a URL localhost:8080/tempo-api/temperatura?regiao=oeste em seu navegador ou usando ferramentas como cURL ou Postman.
